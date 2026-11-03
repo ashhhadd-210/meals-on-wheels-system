@@ -1,0 +1,7 @@
+0000000000000000000000000000000000000000 af76200dc2c288b896b24d31c75c2ddcb8ca21fc Dev <bse@bayut.sa> 1780649141 +0500	commit (initial): Baseline: Meals on Wheels app as received + due-diligence audit
+af76200dc2c288b896b24d31c75c2ddcb8ca21fc af76200dc2c288b896b24d31c75c2ddcb8ca21fc muhammadashhadbayutx <muhammad.ashhad@bayut.sa> 1780649141 +0500	checkout: moving from main to reports-implementation
+af76200dc2c288b896b24d31c75c2ddcb8ca21fc 880589a48e92d73e77bd0be2c2ceaf8b602f69d5 Dev <bse@bayut.sa> 1780649876 +0500	commit: Reports build-out: shared infra + Batch 1 (Follow Ups Needed, Physician Cert Due, Assessment Due)
+880589a48e92d73e77bd0be2c2ceaf8b602f69d5 26d59aca2546c483c732a558339a64afa42048c6 Dev <bse@bayut.sa> 1780651016 +0500	commit: Reports build-out: shared infra + all 10 operational reports
+26d59aca2546c483c732a558339a64afa42048c6 b988cc400f273321dc93bf4c9059b38caa11a3c5 Dev <bse@bayut.sa> 1780656523 +0500	commit: Fix: define missing appendForms() no-op in formControl.js
+b988cc400f273321dc93bf4c9059b38caa11a3c5 5e72f8515436a017fcba92a72fa34b6022c31303 Dev <bse@bayut.sa> 1780660969 +0500	commit: Restore login auth, remove dev artifacts, add SETUP handoff guide
+5e72f8515436a017fcba92a72fa34b6022c31303 44840d5acafb05ab8d3594e9cb0c16f9adcdbbf4 Dev <bse@bayut.sa> 1780661107 +0500	commit: Add CLI-only create-test-user helper + update SETUP login steps

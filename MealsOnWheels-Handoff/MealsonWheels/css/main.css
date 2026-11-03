@@ -1,0 +1,261 @@
+* {
+	box-sizing: border-box;
+
+}
+
+:root {
+	--grey: #1A1A1A;
+	--blue: #2089CD;
+	--goodGreen: #5f9f5f;
+}
+
+.container {
+	max-width: 1000px;
+	width: 90%;
+	margin: auto;
+}
+
+.prox-light {
+	font-family: "proxima-nova", sans-serif;
+	font-weight: 300;
+	font-style: normal;
+}
+
+.prox-reg {
+	font-family: "proxima-nova", sans-serif;
+	font-weight: 400;
+	font-style: normal;
+}
+
+.prox-italic {
+	font-family: "proxima-nova", sans-serif;
+	font-weight: 400;
+	font-style: italic;
+}
+
+.prox-bold {
+	font-family: "proxima-nova", sans-serif;
+	font-weight: 700;
+	font-style: normal;
+}
+
+.prox-bold-italic {
+	font-family: "proxima-nova", sans-serif;
+	font-weight: 700;
+	font-style: italic;
+}
+
+.signOne {
+	font-family: handsome-pro, sans-serif;
+	font-weight: 400;
+	font-style: normal;
+}
+
+.signTwo {
+	font-family: pf-signskript, sans-serif;
+	font-weight: 400;
+	font-style: normal;
+}
+
+.signThree {
+	font-family: adventures-unlimited, sans-serif;
+	font-weight: 400;
+	font-style: normal;
+}
+
+body {
+	margin: 0px;
+	overflow-x: hidden;
+	font-family: "proxima-nova", sans-serif;
+	font-weight: 400;
+	font-style: normal;
+	color: var(--grey)
+}
+
+h1,
+h2 {
+	font-weight: 100;
+}
+
+a,
+a:hover,
+a:focus {
+	text-decoration: none;
+	color: var(--grey);
+	white-space: nowrap;
+}
+
+a:hover,
+a:focus {
+	color: rgb(75, 75, 75);
+}
+
+.hightlight {
+	color: var(--themeOrange);
+}
+
+.themeBtn1 {
+	background-color: white;
+	padding: 15px 20px;
+	width: 100%;
+	display: block;
+	text-align: center;
+	margin-top: 40px;
+	transition: all 200ms ease-in-out;
+	cursor: pointer;
+}
+
+.themeBtn1:hover,
+.themeBtn1:focus,
+.themeBtn1:active {
+	background-color: var(--themeOrange);
+	color: white;
+}
+
+.themeBtn2 {
+	padding: 10px 20px;
+	border: 1px solid;
+	border-radius: 5px;
+	transition: all 200ms ease-in-out;
+	display: inline-block;
+}
+
+.themeBtn2:hover,
+.themeBtn2:focus,
+.themeBtn2:active {
+	background-color: var(--grey);
+	color: white;
+	border-color: var(--grey);
+}
+
+
+.datePicker {
+	cursor: pointer;
+}
+
+input,
+select {
+	padding: 10px;
+	border: 1px solid #c6c6c6;
+	background-color: #fff;
+	color: black;
+	font-family: inherit;
+	font-size: 16px;
+	border-radius: 5px;
+
+}
+
+option {
+	font-size: 12px;
+	white-space: pre-line;
+}
+
+input.hasError {
+	border-color: rgb(161, 33, 33);
+}
+
+button[type="submit"] {
+	padding: 10px;
+	border: 1px solid #c6c6c6;
+	border-radius: 5px;
+	background-color: transparent;
+	cursor: pointer;
+	font-size: 15px;
+	font-family: inherit;
+	color: #484848;
+	transition: all 200ms ease-in-out;
+}
+
+button[type="submit"]:hover,
+button[type="submit"]:active {
+	background-color: var(--blue);
+	color: white;
+	border-color: var(--blue);
+}
+
+.themeFunBtn1 {
+	border: 1px solid var(--blue);
+	padding: 15px;
+	background-color: transparent;
+	font-family: inherit;
+	font-size: 18px;
+	color: var(--blue);
+	cursor: pointer;
+	margin-top: 20px;
+	transition: all 200ms ease-in-out;
+	border-radius: 5px;
+}
+
+.themeFunBtn1:hover,
+.themeFunBtn1:focus,
+.themeFunBtn1:active {
+	color: white;
+	background-color: var(--blue);
+}
+
+hr {
+	width: 100%;
+	border: 1px solid#c6c6c6;
+}
+
+.toggleInput {
+	border: 1px solid #c6c6c6;
+	padding: 10px;
+	border-radius: 5px;
+	cursor: pointer;
+}
+
+button[type="button"] {
+	color: var(--grey);
+	border: 1px solid var(--grey);
+	padding: 10px;
+	background-color: transparent;
+	cursor: pointer;
+	transition: all 200ms ease-in-out;
+	font-size: 17px;
+	font-family: inherit;
+}
+
+button[type="button"]:hover,
+button[type="button"]:active {
+	background-color: var(--grey);
+	color: white;
+}
+
+.deleteBtn {
+	border-radius: 5px;
+	border: 1px solid #b72a2a !important;
+	color: #b72a2a !important;
+	background-color: transparent !important;
+	transition: all 200ms ease-in-out;
+	cursor: pointer;
+	font-family: inherit;
+}
+
+.deleteBtn:hover {
+	background-color: #b72a2a !important;
+	color: white !important;
+}
+
+.addConentBtn {
+	background-color: var(--goodGreen) !important;
+	color: white !important;
+	border: 1px solid transparent !important;
+	border-radius: 5px !important;
+	padding: 10px 20px !important;
+}
+
+.addConentBtn:hover {
+	color: var(--goodGreen) !important;
+	border-color: var(--goodGreen) !important;
+	background-color: transparent !important;
+}
+
+textarea {
+	font-size: 17px;
+	font-family: inherit;
+	padding: 10px;
+	border: 1px solid #c6c6c6;
+	border-radius: 5px;
+	resize: none;
+}

@@ -1,0 +1,6 @@
+Add CLI-only create-test-user helper + update SETUP login steps
+
+Lets the handoff recipient create a known test login (staff@mow.com/Mow12345)
+after attaching the shipped database. CLI-guarded (403 over web).
+
+Co-Authored-By: Claude Opus 4.8 (1M context) <noreply@anthropic.com>

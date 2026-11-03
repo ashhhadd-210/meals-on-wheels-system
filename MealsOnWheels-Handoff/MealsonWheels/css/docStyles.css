@@ -1,0 +1,80 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+    margin: 0px;
+}
+
+p {
+    font-size: 14px;
+}
+
+.subTitle {
+    margin-top: 30px;
+}
+
+.reportSection {
+    background-color: #eee;
+    padding: 10px;
+    margin-top: 10px;
+    /* page-break-inside: avoid; */
+}
+
+.reportSubSection {
+    display: inline-block;
+    margin-right: 20px;
+    margin-top: 20px;
+}
+
+.dietaryRow {
+    background-color: #c6c6c6;
+    padding: 10px;
+    margin-top: 3px;
+}
+
+.dietaryRow.has {
+    background-color: rgb(38, 136, 38);
+    color: white;
+}
+
+#dietarySection {
+    position: relative;
+    height: 600px;
+}
+
+#dietarySection>.reportSubSection {
+    position: absolute;
+    bottom: 10px;
+}
+
+.reportDate {
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    font-size: 13px;
+}
+
+.billingTable {
+    width: 100%;
+    table-layout: fixed;
+    font-size: 13px;
+}
+
+.billingTable,
+.billingTable th,
+.billingTable td {
+    border: 1px solid #c6c6c6;
+    border-collapse: collapse;
+    text-align: left;
+}
+
+.billingTable th,
+.billingTable td {
+    padding: 5px;
+}

@@ -1,0 +1,24 @@
+/* Shared styles for operational reports (self-contained; inlined by viewReport).
+   Added 2026 for the reporting build-out. No remote dependencies. */
+body { font-family: Arial, Helvetica, sans-serif; color: #222; font-size: 12px; margin: 0; }
+h1, h2, h3, h4 { margin: 0; }
+
+.rptHead { border-bottom: 2px solid #333; padding-bottom: 6px; margin-bottom: 10px; }
+.rptHead h2 { font-size: 18px; }
+.rptMeta { font-size: 11px; color: #555; margin-top: 3px; }
+.rptCount { font-size: 11px; color: #555; margin: 8px 0; }
+
+table.rpt { width: 100%; border-collapse: collapse; font-size: 11px; }
+table.rpt th, table.rpt td { border: 1px solid #bbb; padding: 4px 6px; text-align: left; vertical-align: top; }
+table.rpt th { background: #e8e8e8; }
+table.rpt tr:nth-child(even) td { background: #f6f6f6; }
+table.rpt td.num, table.rpt th.num { text-align: right; }
+table.rpt tr.totRow td { font-weight: bold; background: #dfe6e9; }
+
+.rptEmpty { padding: 24px; background: #f3f3f3; color: #666; text-align: center; margin-top: 10px; }
+
+.tag { display: inline-block; padding: 1px 6px; border-radius: 3px; font-size: 10px; color: #fff; }
+.tag-red { background: #c0392b; }
+.tag-amber { background: #d68910; }
+.tag-grey { background: #7f8c8d; }
+.tag-green { background: #27ae60; }
